@@ -80,6 +80,7 @@ public class InterviewQuestions {
 		Select sel = new Select((WebElement) driver);
 		sel.selectByIndex(0);
 		sel.selectByValue("");
+		
 
 		// How to perform drag n drop?
 		// make an object for the actions class, and use draganddrop option.
@@ -89,6 +90,9 @@ public class InterviewQuestions {
 
 		// have to cast driver with the take screenshot class
 		File srcfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+		//Testing to commit to GITHUB
+		System.out.println("Second commit and push");
 
 	}
 }
